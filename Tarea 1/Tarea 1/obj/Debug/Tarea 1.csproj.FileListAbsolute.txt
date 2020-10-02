@@ -1,0 +1,23 @@
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea 1.csprojAssemblyReference.cache
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmMenu.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Properties.Resources.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea 1.csproj.GenerateResource.cache
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea 1.csproj.CoreCompileInputs.cache
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\bin\Debug\Tarea 1.exe.config
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\bin\Debug\Tarea 1.exe
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\bin\Debug\Tarea 1.pdb
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea 1.exe
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea 1.pdb
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmSuma.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmPromedio.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmConvensor.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmMmetros.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmMkilometros.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmConversordemoneda.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmLempira_euro.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmLempira_Dolar.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmComprallanta.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmSueldonormal.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmSueldos.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmGalon.resources
+C:\Users\allan\Source\Repos\Tarea 1\Tarea 1\obj\Debug\Tarea_1.Formularios.FrmHoras.resources

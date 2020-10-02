@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F73DFEF8-D779-49AE-9A80-93B6D9756F7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tarea_1</RootNamespace>
+    <AssemblyName>Tarea 1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\FrmComprallanta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmComprallanta.Designer.cs">
+      <DependentUpon>FrmComprallanta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmConvensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmConvensor.Designer.cs">
+      <DependentUpon>FrmConvensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmConversordemoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmConversordemoneda.Designer.cs">
+      <DependentUpon>FrmConversordemoneda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmGalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmGalon.Designer.cs">
+      <DependentUpon>FrmGalon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmHoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmHoras.Designer.cs">
+      <DependentUpon>FrmHoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLempira_Dolar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLempira_Dolar.Designer.cs">
+      <DependentUpon>FrmLempira_Dolar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLempira_euro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLempira_euro.Designer.cs">
+      <DependentUpon>FrmLempira_euro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMkilometros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMkilometros.Designer.cs">
+      <DependentUpon>FrmMkilometros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMmetros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMmetros.Designer.cs">
+      <DependentUpon>FrmMmetros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmPromedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPromedio.Designer.cs">
+      <DependentUpon>FrmPromedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmSueldonormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmSueldonormal.Designer.cs">
+      <DependentUpon>FrmSueldonormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmSueldos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmSueldos.Designer.cs">
+      <DependentUpon>FrmSueldos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmSuma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmSuma.Designer.cs">
+      <DependentUpon>FrmSuma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FrmComprallanta.resx">
+      <DependentUpon>FrmComprallanta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmConvensor.resx">
+      <DependentUpon>FrmConvensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmConversordemoneda.resx">
+      <DependentUpon>FrmConversordemoneda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmGalon.resx">
+      <DependentUpon>FrmGalon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmHoras.resx">
+      <DependentUpon>FrmHoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmLempira_Dolar.resx">
+      <DependentUpon>FrmLempira_Dolar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmLempira_euro.resx">
+      <DependentUpon>FrmLempira_euro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMkilometros.resx">
+      <DependentUpon>FrmMkilometros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMmetros.resx">
+      <DependentUpon>FrmMmetros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPromedio.resx">
+      <DependentUpon>FrmPromedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmSueldonormal.resx">
+      <DependentUpon>FrmSueldonormal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmSueldos.resx">
+      <DependentUpon>FrmSueldos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmSuma.resx">
+      <DependentUpon>FrmSuma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
